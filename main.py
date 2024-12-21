@@ -2,7 +2,7 @@ import pygame
 import sys
 
 animation_set = [pygame.image.load(f"r{i}.png") for i in range(1, 6)]
-
+hh = 1
 window = pygame.display.set_mode((640, 480))
 
 clock = pygame.time.Clock()
